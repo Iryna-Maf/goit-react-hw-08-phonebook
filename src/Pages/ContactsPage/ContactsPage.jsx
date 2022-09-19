@@ -35,6 +35,7 @@ const ContactsPage = () => {
     );
     return filteredContact;
   });
+  // console.log('phoneList', phoneList);
 
   const onAddContact = data => {
     const action = addItems(data);
