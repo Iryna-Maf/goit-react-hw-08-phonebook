@@ -5,7 +5,7 @@ const Contacts = ({ phoneList, onDeletePhoneListItem, onClick }) => {
   return (
     <ul className={s.list}>
       {phoneList.map(({ id, name, number }) => (
-        <li key={id} className={s.item}>
+        <li key={id} id={id} className={s.item} onClick={onClick}>
           <p className={s.nameText}>{name}</p>
           <p className={s.phoneNumber}>{number}</p>
           <button className={s.btn} onClick={() => onDeletePhoneListItem(id)}>
