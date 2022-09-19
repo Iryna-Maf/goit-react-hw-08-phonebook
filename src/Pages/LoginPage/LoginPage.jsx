@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { login } from 'redux/auth/auth-operations';
 import { Navigate } from 'react-router-dom';
-import LoginForm from 'components/LoginForm';
+import LoginForm from 'components/LoginForm/LoginForm';
 import useAuth from 'shared/hooks/useAuth';
 
 const LoginPage = () => {

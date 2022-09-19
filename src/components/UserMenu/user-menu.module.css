@@ -1,25 +1,22 @@
 .logout {
   text-decoration: none;
   display: inline-block;
-  color: white;
-  padding: 10px 20px;
-  border: 1px solid #0066ff;
-  border-radius: 10px;
+  background-color: #5555ff;
   cursor: pointer;
-  letter-spacing: 2px;
-  background-size: 200% auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: 0.5s;
+  padding: 10px 15px;
+  border: 2px solid #0000ff;
+  border-radius: 5px;
+  color: black;
 }
 .logout:hover,
 .logout:focus {
-  background-position: right center;
-  border-color: white;
+  background-color: #0000ff;
 }
+
 .userName {
   margin-right: 10px;
-  color: white;
-
+  color: black;
   font-size: 20px;
-  text-shadow: 1px 1px 5px black;
+  font-weight: 700;
+  text-decoration: underline;
 }

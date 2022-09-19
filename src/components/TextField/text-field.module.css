@@ -7,22 +7,21 @@
 }
 .label {
   padding: 10px 15px;
-  color: white;
-
-  font-size: 20px;
-  text-shadow: 1px 1px 5px black;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
 }
 .input {
   display: block;
-
+  font-size: 20px;
   padding: 0 15px;
   margin-top: 5px;
-  border-width: 0;
+  border: 1px solid blue;
   line-height: 40px;
-  border-radius: 10px;
-  color: white;
+  border-radius: 5px;
+  color: black;
 }
 ::placeholder {
-  color: white;
+  color: black;
   opacity: 0.8;
 }

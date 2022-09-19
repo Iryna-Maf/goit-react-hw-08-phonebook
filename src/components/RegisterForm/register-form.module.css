@@ -2,17 +2,16 @@
   margin-left: 15px;
   text-decoration: none;
   display: inline-block;
-  color: white;
-  padding: 10px 20px;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
   border: 1px solid #0066ff;
-  border-radius: 10px;
+  border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-size: 200% auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: 0.5s;
 }
 .registerButton:hover {
-  background-position: right center;
-  border-color: white;
+  border-color: darkblue;
+  font-weight: 700;
 }

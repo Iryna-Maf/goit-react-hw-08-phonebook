@@ -93,10 +93,6 @@ function FormAddPhone({ onSubmit }) {
 
 export default FormAddPhone;
 
-FormAddPhone.defaultProps = {
-  onSubmit: () => {},
-};
-
 FormAddPhone.propTypes = {
   onSubmit: PropTypes.func,
 };

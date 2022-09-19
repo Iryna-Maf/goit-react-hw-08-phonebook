@@ -2,7 +2,7 @@ import { Route, Routes, NavLink } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import useAuth from 'shared/hooks/useAuth';
 
-import UserMenu from 'components/UserMenu';
+import UserMenu from 'components/UserMenu/UserMenu';
 
 import PrivateRoute from 'components/PrivateRoute/PrivateRoute';
 import PublicRoute from 'components/PublicRoute/PublicRoute';

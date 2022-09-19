@@ -13,22 +13,20 @@
 .headerNav {
   text-decoration: none;
   display: inline-block;
-  color: white;
+  color: black;
   padding: 10px 20px;
-  border: 1px solid #0066ff;
   border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-size: 200% auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
   transition: 0.5s;
 }
 .headerNav:hover {
-  background-position: right center;
-  border-color: #fff;
+  border-color: black;
 }
 .active {
-  color: #fff;
+  color: black;
   border-color: #fff;
   font-weight: bold;
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import TextField from 'components/TextField';
+import TextField from 'components/TextField/TextField';
 import { fields } from 'components/TextField/fields';
 import s from './login-form.module.css';
 

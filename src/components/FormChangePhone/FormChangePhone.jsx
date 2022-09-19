@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
-import { changeContactsItems } from 'redux/items/phone-book-items-operations';
+import { changeContactsItems } from 'redux/contacts/contacts-operations';
 
 import s from './form-change-phone.module.css';
 
