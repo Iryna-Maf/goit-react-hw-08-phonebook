@@ -46,6 +46,7 @@ const ContactsPage = () => {
     const action = deleteContacts(id);
     dispatch(action);
   };
+  // console.log('onDelContact :>> ', onDelContact);
 
   const onChangeFilter = e => {
     const action = addFilter(e.currentTarget.value);
